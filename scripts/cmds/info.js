@@ -21,10 +21,10 @@ module.exports = {
 
   onStart: async function ({ message }) {
 
-    const ownerName = "STARBOY APHELION";
-    const ownerAge = "N/A";
-    const ownerFB = "https://facebook.com/star.boy.aphelion";
-    const ownerNumber = "+88019XXXXXXX";
+    const ownerName = "𝗦𝗮𝗸𝗶𝗯 𝗔𝗵𝗺𝗲𝗱";
+    const ownerAge = "Sweet Sixteen 🎀";
+    const ownerFB = "https://www.facebook.com/share/199a7Rybru/";
+    const ownerNumber = "01774794242";
     const status = "Active";
 
     const botName = global.GoatBot?.config?.nickNameBot || "GoatBot";
@@ -34,7 +34,7 @@ module.exports = {
     const totalCommands = global.GoatBot?.commands?.size || 0;
 
     const images = [
-      "https://i.ibb.co/SD8SDxRp/597419756-1433777018750185-6513158348709492396-n-jpg-nc-cat-103-ccb-1-7-nc-sid-9f807c-nc-eui2-Ae-F.jpg"
+      "https://files.catbox.moe/le615k.jpg"
     ];
     const image = images[Math.floor(Math.random() * images.length)];
 
@@ -51,12 +51,12 @@ module.exports = {
 
     return message.reply({
       body: `
-╔═《 ✨ 𝗢𝗪𝗡𝗘𝗥 & 𝗕𝗢𝗧 𝗜𝗡𝗙𝗢 ✨ 》═╗
+╔═《 🚩 𝗢𝗪𝗡𝗘𝗥 & 𝗕𝗢𝗧 𝗜𝗡𝗙𝗢 🚩 》═╗
 
 ⭓ 🤖 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲   : 『 ${botName} 』
 ⭓ ☄️ 𝗣𝗿𝗲𝗳𝗶𝘅      : 『 ${prefix} 』
 ⭓ 🧠 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀    : 『 ${totalCommands} 』
-⭓ ⚡ 𝗨𝗽𝘁𝗶𝗺𝗲      : 『 ${uptimeString} 』
+⭓ ⚡ 𝗨𝗽𝘁𝗶𝗺𝗲      : uptimeStringring} 』
 ⭓ 🗓️ 𝗗𝗮𝘁𝗲        : 『 ${date} 』
 ⭓ ⏰ 𝗧𝗶𝗺𝗲        : 『 ${time} 』
 
